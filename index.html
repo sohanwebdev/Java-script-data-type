@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>java-script data type</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div id="primitive">
+      <div class="container">
+         <h3> PRIMITIVE DATA </h3>
+         <div class="row">
+            <div class="primitive_item one">
+               <h2>string data type</h2>
+               <script>
+                  /* double quotation */
+                  var check1 = "double quotation..!"
+                  document.write(check1);
+                  document.write("<br>");
+                  document.write(typeof check1);
+                  document.write("<br>");
+                  /* single quotation */
+                  var check2 = 'single quotation..!'
+                  document.write(check2);
+                  document.write("<br>");
+                  document.write(typeof check2);
+                  document.write("<br>");
+                  /* back tick */
+                  var check3 = `back tick..!`
+                  document.write(check3);
+                  document.write("<br>");
+                  document.write(typeof check3);
+                  document.write("<br>");
+               </script>
+            </div>
+            <div class="primitive_item two" >
+               <h2>number data type</h2>
+               <script>
+                  /* number data type */
+                  var check4 = 12535637;
+                  document.write(check4);
+                  document.write("<br>");
+                  document.write(typeof check4);
+                  document.write("<br>");
+               </script>
+            </div>
+            <div class="primitive_item one">
+               <h2>boolean data type</h2>
+               <script>
+                  /* boolean true type */
+                  var check5 = true;
+                  document.write(check5);
+                  document.write("<br>");
+                  document.write(typeof check5);
+                  document.write("<br>");
+                  /* boolean false type */
+                  var check6 = false;
+                  document.write(check6);
+                  document.write("<br>");
+                  document.write(typeof check6);
+                  document.write("<br>");
+               </script>
+            </div>
+            <div class="primitive_item two">
+               <h2>undefined data type</h2>
+               <script>
+                  /*undefined data type */
+                  var check7;
+                  document.write(check7);
+                  document.write("<br>");
+                  document.write(typeof check7);
+               </script>
+            </div>
+         </div>
+      </div>
+   </div>
+<!--===================================================-->
+   <div id="function">
+      <div class="container">
+         <h3>FUNCTION DATA</h3>
+         <div class="row">
+            <div class="function_item two">
+               <h2>plus data type</h2>
+               <script>
+                  function plus (a,b) {
+                     var result = a+b
+                     document.write("<br>" + result);
+                  }
+                  plus(6776,567);
+                  plus(64789,7947);
+                  plus(376894,-20);
+                  plus(38967,8736);
+               </script>
+            </div>
+            <div class="function_item one">
+               <h2>munis data type</h2>
+               <script>
+                  function munis (c,d) {
+                     var result = c-d
+                     document.write("<br>" + result);
+                  }
+                  munis(5,1);
+                  munis(378,132);
+                  munis(470,130);
+                  munis(836573787,372565);
+               </script>
+            </div>
+            <div class="function_item two">
+               <h2>multiplication data type</h2>
+               <script>
+                  function multiplication (e,f) {
+                     var result = e*f
+                     document.write("<br>" + result);
+                  }
+                  multiplication(460,35);
+                  multiplication(15256,35);
+                  multiplication(460,63878);
+                  multiplication(67778,3664);
+               </script>
+            </div>
+            <div class="function_item one">
+               <h2>divider data type</h2>
+               <script>
+                  function divider (g,h) {
+                     var result = g/h
+                     document.write("<br>" + result);
+                  }
+                  divider(345,56);
+                  divider(67,6);
+                  divider(387,89);
+                  divider(6589,54);
+               </script>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--===================================================-->
+   <div id="object_array">
+      <div class="container">
+         <h3>OBJECT ARRAY DATA</h3>
+         <div class="row">
+            <div class="array_item one">
+               <h2>array student data 1</h2>
+               <script>
+                  var student = ["name-sohan",3456,"chittagong"]
+                  document.write(student[0]);
+                  document.write("<br>");
+                  document.write(student[1]);
+                  document.write("<br>");
+                  document.write(student[2]);
+               </script>
+            </div>
+            <div class="array_item two">
+               <h2>array car data 2</h2>
+               <script>
+                  var car = ["bmd",367,"spots-car"]
+                  document.write(car[0]);
+                  document.write("<br>");
+                  document.write(car[1]);
+                  document.write("<br>");
+                  document.write(car[2]);
+               </script>
+            </div>
+            <div class="array_item one">
+               <h2>array foods data 3</h2>
+               <script>
+                  var foods = ["ame","tormoz","bangi","lichue","zam"]
+                  document.write(foods[0]);
+                  document.write("<br>");
+                  document.write(foods[1]);
+                  document.write("<br>");
+                  document.write(foods[2]);
+                  document.write("<br>");
+                  document.write(foods[3]);
+                  document.write("<br>");
+                  document.write(foods[4]);
+               </script>
+            </div>
+            <div class="array_item two">
+               <h2>array freelancing data 4</h2>
+               <script>
+                  var freelancing = ["webdesign","webdevelopment","graphicdesign","dataentry","digitalmarketing"]
+                  document.write(freelancing[0]);
+                  document.write("<br>");
+                  document.write(freelancing[1]);
+                  document.write("<br>");
+                  document.write(freelancing[2]);
+                  document.write("<br>");
+                  document.write(freelancing[3]);
+                  document.write("<br>");
+                  document.write(freelancing[4]);
+               </script>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--===================================================-->
+   <div id="direct_object">
+      <div class="container">
+         <h3>DIRECT OBJECT DATA</h3>
+         <div class="row">
+            <div class="object_item two">
+               <h2>direct student data</h2>
+               <script>
+                  var student = {
+                     name: "sohan",
+                     roll: "2103",
+                     depertment: "webdesign"
+                  }
+                  document.write(student.name);
+                  document.write("<br>");
+                  document.write(student.roll);
+                  document.write("<br>");
+                  document.write(student.depertment);
+               </script>
+            </div>
+            <div class="object_item one">
+               <h2>direct car data</h2>
+               <script>
+                  var car = {
+                     name: "audi",
+                     model: "x-3456",
+                     cc: "2450hoursepower"
+                  }
+                  document.write(car.name);
+                  document.write("<br>");
+                  document.write(car.model);
+                  document.write("<br>");
+                  document.write(car.cc);
+               </script>
+            </div>
+            <div class="object_item two">
+               <h2>direct others data</h2>
+               <script>
+                  var others = {
+                     name: "house",
+                     tala: "12folor",
+                     color: "green"
+                  }
+                  document.write(others.name);
+                  document.write("<br>");
+                  document.write(others.tala);
+                  document.write("<br>");
+                  document.write(others.color);
+               </script>
+            </div>
+            <div class="object_item one">
+               <h2>direct class data</h2>
+               <script>
+                  var life = {
+                     name: "bba",
+                     semester: "3rd",
+                     subject: "accounting"
+                  }
+                  document.write(life.name);
+                  document.write("<br>");
+                  document.write(life.semester);
+                  document.write("<br>");
+                  document.write(life.subject);
+               </script>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
